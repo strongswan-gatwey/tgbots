@@ -43,6 +43,7 @@ Web-статус: Веб-интерфейс для мониторинга раб
 apt update && sudo apt upgrade -y
 sudo apt install -y git curl wget
 git clone https://github.com/strongswan-gatwey/tgbots
+cd tgbots/
 chmod +x install_bot_youtrack.sh
 ./install_bot_youtrack.sh
 
