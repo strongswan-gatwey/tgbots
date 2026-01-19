@@ -1,5 +1,5 @@
 #!/bin/bash
-# install_tgbot_youtrack.sh - Telegram-YouTrack бота на Debian 12
+# install_bot_youtrack.sh - Установка Telegram-YouTrack бота на Debian 12
 
 set -e  # Завершить при ошибке
 
