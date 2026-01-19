@@ -34,7 +34,7 @@ fi
 
 # Запрашиваем данные у пользователя
 print_info "Для работы бота нужны следующие данные:"
-read -p "Введите доменное имя (например: mbsup.ituslugi.pro): " DOMAIN
+read -p "Введите доменное имя (например: bot.example.pro): " DOMAIN
 read -p "Введите email для SSL сертификата: " SSL_EMAIL
 read -p "Введите Telegram Bot Token (от @BotFather): " TELEGRAM_TOKEN
 read -p "Введите Telegram Admin ID (ваш цифровой ID в Telegram): " TELEGRAM_ADMIN_ID
