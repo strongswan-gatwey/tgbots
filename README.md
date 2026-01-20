@@ -44,8 +44,8 @@ apt update && sudo apt upgrade -y
 sudo apt install -y git curl wget
 git clone https://github.com/strongswan-gatwey/tgbots
 cd tgbots/
-chmod +x install_bot_youtrack.sh
-./install_bot_youtrack.sh
+chmod +x install_tgbot_youtrack.sh
+./install_tgbot_youtrack.sh
 
 # Во время установки будут запрошены:
 Доменное имя (например: bot.yourdomain.com)
